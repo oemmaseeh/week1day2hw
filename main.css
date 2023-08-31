@@ -1,0 +1,143 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px 
+}
+nav {
+    background-color: black !important;
+}
+.nav-link {
+    margin-left: 40px;
+    color: whitesmoke !important;
+}
+.nav-item {
+    text-align: center;
+}
+#FirstPanelSection {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#FirstPanelIMG {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+}
+#FirstPanelH1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10%;
+    white-space: nowrap;
+}
+a:hover {
+    color: blueviolet !important;
+}
+#SecondPanelSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#DateBox {
+    border: 1px solid gray;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 45px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#SecondPanelH2 {
+    padding: 5px;
+    margin-left: 25px;
+}
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    font-size: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#line {
+    border-top: 2px solid #bbb;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+span {
+    font-size: 26px;
+}
+p {
+    font-size: 15px;
+}
+footer{
+    bottom: 0%;
+    left: 0%;
+    font-size: small;
+    width: 100%;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.maping{
+    width: 250px;
+}
+.footinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+    font: 0.6em;
+}
+.footshows{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+    font: 0.6em;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+    font: 0.6em;
+}
+.foothead{
+    font-size: 2em;
+}
+.tiny{
+    margin: 2px;
+}
+a{
+    text-decoration: none;
+}
+footer {
+    background-color: black;
+    padding-bottom: 30px;
+}
